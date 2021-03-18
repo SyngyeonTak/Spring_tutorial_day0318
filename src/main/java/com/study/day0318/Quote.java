@@ -1,7 +1,6 @@
 package com.study.day0318;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import org.springframework.beans.factory.annotation.Value;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Quote {
